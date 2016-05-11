@@ -2,8 +2,7 @@ c++ [ROS](http://www.ros.org/) node wrapper for a set of [hc-sr04](http://www.mi
 
 ![hc-sr04](hc_sr04.jpg)
 
-Publishes [sensor_msgs::Range](http://docs.ros.org/jade/api/sensor_msgs/html/msg/Range.html) messages at 10Hz to `/sonarN` topics.
-Specifically populates `range`. Publish rate and topic name are configurable.
+Publishes [sensor_msgs::Range](http://docs.ros.org/jade/api/sensor_msgs/html/msg/Range.html) messages at 10Hz to `/sonarN` topics. Specifically populates `range`.
 
 We include a node for a set of sonars, rather than a node per sonar, since we need to ensure only one sonar is measuring at a time (sonars can easily interfere with each other)
 
