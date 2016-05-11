@@ -104,14 +104,11 @@ int main(int argc, char **argv) {
   while(ros::ok()) {    
     for (int i = 0; i < sonars.size(); ++i) {
       range.header.stamp = ros::Time::now();
-      float distance = sonars[i].distance(&error);
-      if (error) {
+      range.range = sonars[i].distance(&error);
+      if (error)
 	ROS_WARN("Error on sonar %d", i);
-      }
-      else {
-	range.range = distance;
+      else
 	sonar_pubs[i].publish(range);
-      }
     }    
     rate.sleep();    
   }
