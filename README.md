@@ -8,6 +8,8 @@ We include a node for a set of sonars, rather than a node per sonar, since we ne
 
 on rasp pi 2 uses ~2% cpu and <1% mem for 3 sonars (capping at a distance of 20cm)
 
+REQUIRES running `src/export_gpio_pins.sh` to export pins otherwise need to run as root. (limitation of `wiringPiSetupSys`)
+
 ````
 rostopic echo /sonar_0
 ---
