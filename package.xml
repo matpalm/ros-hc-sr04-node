@@ -1,19 +1,18 @@
 <?xml version="1.0"?>
 <package>
   <name>hc_sr04</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The hc_sr04 package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="pi@todo.todo">pi</maintainer>
-
+  <maintainer email="matthew.kelcey+github@gmail.com">mat</maintainer>
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>MIT</license>
 
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
@@ -40,7 +39,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
   <run_depend>roscpp</run_depend>
-
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
