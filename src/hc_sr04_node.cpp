@@ -109,7 +109,8 @@ int main(int argc, char **argv) {
 	ROS_WARN("Error on sonar %d", i);
       else
 	sonar_pubs[i].publish(range);
-    }    
+    }
+    ros::spinOnce();
     rate.sleep();    
   }
   return 0;
