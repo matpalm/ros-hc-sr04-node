@@ -11,7 +11,7 @@ namespace hc_sr04_node {
 
 // Maximum distance reported. Values over this distance
 // report MAX_DISTANCE. TODO make this a property.
-const static float MAX_DISTANCE = 20;
+const static float MAX_DISTANCE = 30;
 const static float DIST_SCALE = 58.0;
 const static float TRAVEL_TIME_MAX = MAX_DISTANCE * DIST_SCALE;
 
