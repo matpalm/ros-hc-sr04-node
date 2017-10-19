@@ -28,4 +28,5 @@ range: 7.08620691299
 ````		    
 
 TODOS
+* make hard coded pins in `hc_sr04_node.cpp` configurable
 * need some analysis on `field_of_view`
